@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    top: 110px;
+    right: 210px;
+    left: 210px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 100;
+
+}
+
+.my-logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.left-container {
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+}
+
+.header-box {
+    transition: opacity 0.2s, color 0.2s;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.header-box:hover {
+    opacity: 1;
+    color: rgb(95, 95, 95);
+}
+.header-box:active {
+    opacity: 0.1;
+}

@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135grad, rgba(73, 141, 243, 1) 40%, rgba(121, 219, 255, 1) 40% 50%, rgb(198, 222, 255));
+
+    font-family: Roboto, Ariel;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
